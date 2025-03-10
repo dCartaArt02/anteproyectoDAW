@@ -1,0 +1,39 @@
+body{
+    background-color: #DACBB6;
+    font-family: alpha;
+}
+
+.mapa
+{
+    margin-left: 10%;
+    margin-top: 10%;
+   transform: scale(1.2);
+}
+.mapa path
+{
+    fill: #5E7381;
+    stroke-width: 2px;
+    stroke: #DACBB6;
+}
+.mapa path:hover
+{
+    fill: #EAC8A6;
+}
+.pata
+{
+    font-family: neovibes;
+    margin-top: 5%;
+    text-align: center;
+    height: 40px;
+   width: 100% auto;
+   font-size: 20px;
+   
+}
+@font-face {
+    font-family: "neovibes";
+    src: url('../fonts/neovibes.otf');
+}
+@font-face {
+    font-family: alpha;
+    src: url('../fonts/alphacorsa.personal-use.ttf');
+}
