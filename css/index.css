@@ -1,32 +1,35 @@
 body{
-    background-color: #DACBB6;
+    background-color: #F9F6EF;
     font-family: alpha;
+    color: #282828;
 }
 
 .mapa
 {
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 10%;
-   transform: scale(1.2);
+   transform: scale(1.4);
 }
 .mapa path
 {
-    fill: #5E7381;
+    fill: #193497;
     stroke-width: 2px;
-    stroke: #DACBB6;
+    stroke: #EDA398;
 }
 .mapa path:hover
 {
-    fill: #EAC8A6;
+    fill: #EDA398;
 }
 .pata
 {
+    
     font-family: neovibes;
-    margin-top: 5%;
+    margin-top: 7%;
     text-align: center;
     height: 40px;
    width: 100% auto;
    font-size: 20px;
+   
    
 }
 @font-face {
@@ -36,4 +39,14 @@ body{
 @font-face {
     font-family: alpha;
     src: url('../fonts/alphacorsa.personal-use.ttf');
+}
+.targeta
+{
+   font-family: 'Times New Roman', Times, serif;
+   position: absolute;
+   color: #F9F6EF;
+    top: 20%;
+    margin-left: 75%;
+    transform: scale(1.5);
+
 }
