@@ -1,5 +1,5 @@
 function init(){
-    var divw1 = document.getElementById("titlew1");
+    var divw1 = document.getElementById("ventanainfo");
     if(divw1.addEventListener){
     divw1.addEventListener("mousedown", function(event){
     drag(this.parentNode, event);
