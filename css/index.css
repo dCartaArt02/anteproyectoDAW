@@ -40,9 +40,20 @@ body{
     font-family: alpha;
     src: url('../fonts/alphacorsa.personal-use.ttf');
 }
+@font-face {
+    font-family: UbuntuMono;
+    src: url('../fonts/UbuntuMono-Regular.ttf');
+}
+@font-face {
+    font-family: UbuntuMonoB;
+    src: url('../fonts/UbuntuMono-Bold.ttf');
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 .targeta
 {
-   font-family: 'ubuntu mono', Times, serif;
+   font-family: 'UbuntuMono';
    position: absolute;
    color: #F9F6EF;
     top: 20%;
