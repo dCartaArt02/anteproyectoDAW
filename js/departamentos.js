@@ -108,7 +108,8 @@ pathid9.addEventListener ('mouseover', () =>{
     -07 de Noviembre<br>
     -20 de Noviembre<br>
     <strong>Número de habitantes</strong><br>
-    470,455 habitantes<br>`;
+    470,455 habitantes<br>
+    `;
     arraydep[0] = prueba;
     actualizador();
 } );
