@@ -63,4 +63,8 @@ body{
     text-align: center;
     
 }
+input:invalid
+{
+    background-color: #EDA398;
+}
 
